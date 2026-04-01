@@ -48,10 +48,10 @@ app.command("/znajdz_projekt", async ({ ack, respond }) => {
   );
 });
 
-// Odpowiedź na wzmianki (@Gruby Lider)
+// Odpowiedź na wzmianki (@Mietek Mobil)
 app.event("app_mention", async ({ event, say }) => {
   await say(
-    `Cześć <@${event.user}>! Gruby Lider tu. ` +
+    `Cześć <@${event.user}>! Mietek Mobil tu. ` +
     "Jestem teraz w trybie *deep work*, ale odezwę się jak tylko skończę tę prezentację strategiczną. " +
     "W międzyczasie skorzystaj z `/roadmap`, `/budzet`, `/podwyzka` lub `/znajdz_projekt`. " +
     "Wszystko jest pod kontrolą. 👋"
@@ -60,5 +60,5 @@ app.event("app_mention", async ({ event, say }) => {
 
 (async () => {
   await app.start();
-  console.log("Gruby Lider jest online. Piątki wolne.");
+  console.log("Mietek Mobil jest online. Piątki wolne.");
 })();
