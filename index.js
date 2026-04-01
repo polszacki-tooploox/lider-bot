@@ -12,7 +12,7 @@ const app = new App({
 app.command("/roadmap", async ({ ack, respond }) => {
   await ack();
   await respond(
-    "Roadmapa na Q2 jest jasna: skupiamy się na *skalowalności*, *wydajności* i *doświadczeniu użytkownika*. " +
+    "Roadmapa na Q2 jest jasna: skupiamy się na *nowych projektach* i *AI*. " +
     "Tak samo jak w Q1. I Q4 poprzedniego roku. Nie zmienia to faktu, że jest aktualna i ambitna. " +
     "Szczegóły wkrótce na spotkaniu, które zaplanujemy w przyszłym tygodniu. 📊"
   );
